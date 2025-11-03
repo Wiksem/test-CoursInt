@@ -15,3 +15,7 @@ class Triangle {
         return (Math.sqrt(3) / 4) * Math.pow(this.side, 2);
     }
 }
+
+module.exports = {
+    Triangle: Triangle
+};
