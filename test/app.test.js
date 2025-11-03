@@ -9,9 +9,9 @@ describe('Testing the Triangle Functions', function() {
         done();
     });
     
-    it('2. The surface area of the Cube', function(done) {
-        let c2 = new Cube(5);
-        expect(c2.getSurfaceArea()).to.equal(150);
+    it('2. The perimeter of the Triangle', function(done) {
+        let t2 = new Triangle(5);
+        expect(t2.getPerimeter()).to.equal(15);
         done();
     });
     
