@@ -11,4 +11,7 @@ class Triangle {
         return this.side * 3;
     }
 
+    getArea() {
+        return (Math.sqrt(3) / 4) * Math.pow(this.side, 2);
+    }
 }
