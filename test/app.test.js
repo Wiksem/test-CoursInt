@@ -15,10 +15,10 @@ describe('Testing the Triangle Functions', function() {
         done();
     });
     
-    it('3. The volume of the Cube', function(done) {
-        let c3 = new Cube(7);
-        expect(c3.getVolume()).to.equal(343);
+    it('3. The area of the Triangle', function(done) {
+        let t3 = new Triangle(6);
+        // Aire = (√3 / 4) * 6² = 9√3 ≈ 15.588
+        expect(t3.getArea()).to.be.closeTo(15.588, 0.001);
         done();
     });
-    
 });
